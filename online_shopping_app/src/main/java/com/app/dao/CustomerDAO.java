@@ -1,9 +1,8 @@
-package com.app.service;
+package com.app.dao;
 
 import com.app.businessException.BusinessException;
 
-public interface Login {
-
+public interface CustomerDAO {
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException;
 
 }

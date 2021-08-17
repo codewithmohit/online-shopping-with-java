@@ -5,8 +5,10 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.app.businessException.BusinessException;
-import com.app.loginImpl.loginImpl;
-import com.app.service.Login;
+import com.app.service.Customer;
+import com.app.service.Employee;
+import com.app.serviceImpl.CustomerImp;
+import com.app.serviceImpl.EmployeeImp;
 
 public class Main {
 
@@ -35,26 +37,70 @@ public class Main {
 			}
 			switch (ch) {
 			case 1:
-				Login login = new loginImpl();
-				log.info("\n**** Welcome to Login Portal****");
-				log.info("Enter your username");
-				String username = scanner.nextLine();
-				log.info("Enter your password");
-				String password = scanner.nextLine();
+				Employee employeeLogin = new EmployeeImp();
+				int emploChance = 0;
+				do {
 
-				try {
-					boolean valid = login.checkValidCredentials(username, password);
-					if (valid) {
-						log.info("Work under construction!!!");
-					} else {
-						log.info("not valid");
+					log.info("\n**** Welcome to Employee Login Portal****");
+					log.info("Enter your username");
+					String username = scanner.nextLine();
+					log.info("Enter your password");
+					String password = scanner.nextLine();
+
+					try {
+						boolean valid = employeeLogin.checkValidCredentials(username, password);
+						if (valid) {
+							log.info("Work under construction!!!");
+						}
+					} catch (BusinessException e) {
+						log.info(e.getMessage());
+						emploChance++;
+						if (emploChance > 0)
+							log.info("\nRemain chance to try login again is " + (5 - emploChance) + "\n");
 					}
-				} catch (BusinessException e) {
-					log.info(e.getMessage());
-				}
+				} while (emploChance < 5);
 				break;
 			case 2:
-				log.info("Work Under Construction");
+				log.info("\n**** Welcome to Customer Portal****");
+				log.info("1)Login");
+				log.info("2)Create Accoount");
+				log.info("3)Back to Main Menu");
+				log.info("Enter your choice between 1-3");
+
+				int option = Integer.parseInt(scanner.nextLine());
+
+				switch (option) {
+				case 1:
+					Customer customerLogin = new CustomerImp();
+					int custChance = 0;
+					do {
+						log.info("\n**** Welcome to Login Portal****");
+						log.info("Enter your username");
+						String username = scanner.nextLine();
+						log.info("Enter your password");
+						String password = scanner.nextLine();
+
+						try {
+							boolean valid = customerLogin.checkValidCredentials(username, password);
+							if (valid) {
+								log.info("Work under construction!!!");
+							}
+						} catch (BusinessException e) {
+							log.info(e.getMessage());
+							custChance++;
+							if (custChance > 0)
+								log.info("\nRemain chance to try login again is " + (5 - custChance) + "\n");
+
+						}
+					} while (custChance < 5);
+					break;
+				case 2:
+					break;
+				case 3:
+					log.info("***Going to main menu***");
+					break;
+				}
+
 				break;
 			case 3:
 				log.info("Thanks for using our Shopping app. see you again!");

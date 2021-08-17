@@ -1,20 +1,20 @@
-package com.app.loginImpl;
+package com.app.serviceImpl;
 
 import com.app.businessException.BusinessException;
 import com.app.dao.EmployeeDAO;
 import com.app.daoImpl.EmployeeDAOImpl;
-import com.app.service.Login;
+import com.app.service.Employee;
 
-public class loginImpl implements Login {
-	EmployeeDAO dao = new EmployeeDAOImpl();
+public class EmployeeImp implements Employee {
+	EmployeeDAO employeeDAO = new EmployeeDAOImpl();
 
 	@Override
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
 		boolean login = false;
-		if (username.length() < 4 || password.length() < 6) {
+		if (username.length() < 3 || password.length() < 6) {
 			throw new BusinessException("Please enter valid Username and Password!");
 		} else {
-			login = dao.checkValidCredentials(username, password);
+			login = employeeDAO.checkValidCredentials(username, password);
 		}
 		return login;
 	}
