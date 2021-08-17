@@ -3,9 +3,9 @@ package com.app.serviceImpl;
 import com.app.businessException.BusinessException;
 import com.app.dao.EmployeeDAO;
 import com.app.daoImpl.EmployeeDAOImpl;
-import com.app.service.Employee;
+import com.app.service.EmployeeService;
 
-public class EmployeeImp implements Employee {
+public class EmployeeServiceImp implements EmployeeService {
 	EmployeeDAO employeeDAO = new EmployeeDAOImpl();
 
 	@Override

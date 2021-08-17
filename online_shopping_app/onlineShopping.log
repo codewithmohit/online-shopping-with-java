@@ -435,3 +435,204 @@ Remain chance to try login again is 1
 [main] 2021-08-17 21:32:48 INFO  com.app.Main  - 
 **** Welcome to Employee Login Portal****
 [main] 2021-08-17 21:32:48 INFO  com.app.Main  - Enter your username
+[main] 2021-08-17 21:32:53 INFO  com.app.Main  - Enter your password
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-17 21:32:54 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 00:25:32 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 00:25:34 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-18 00:25:34 INFO  com.app.Main  - 1)Login
+[main] 2021-08-18 00:25:34 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-18 00:25:34 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-18 00:25:34 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 00:25:37 INFO  com.app.Main  - 
+**** Welcome to Signup Portal****
+[main] 2021-08-18 00:25:37 INFO  com.app.Main  - Enter Name-->
+[main] 2021-08-18 00:25:46 INFO  com.app.Main  - Enter Username-->
+[main] 2021-08-18 00:25:49 INFO  com.app.Main  - Enter Password-->
+[main] 2021-08-18 00:25:52 INFO  com.app.Main  - Enter Email-Id-->
+[main] 2021-08-18 00:26:05 INFO  com.app.Main  - Account create Successfully!!!!!!!!!!
+[main] 2021-08-18 00:26:05 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 00:26:05 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 00:26:05 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 00:26:05 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 00:26:10 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-18 00:26:10 INFO  com.app.Main  - 1)Login
+[main] 2021-08-18 00:26:10 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-18 00:26:10 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-18 00:26:10 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 00:26:12 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-18 00:26:12 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 00:26:24 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 00:26:26 INFO  com.app.Main  - Work under construction!!!
+[main] 2021-08-18 00:26:26 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-18 00:26:26 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 01:00:07 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 01:00:09 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-18 01:00:09 INFO  com.app.Main  - 1)Login
+[main] 2021-08-18 01:00:09 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-18 01:00:09 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-18 01:00:09 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 01:06:45 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 01:06:46 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-18 01:06:46 INFO  com.app.Main  - 1)Login
+[main] 2021-08-18 01:06:46 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-18 01:06:46 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-18 01:06:46 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 01:06:49 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-18 01:06:49 INFO  com.app.Main  - 1)Login
+[main] 2021-08-18 01:06:49 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-18 01:06:49 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-18 01:06:49 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 01:06:52 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-18 01:06:52 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 01:07:01 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 01:07:01 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-18 01:07:01 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-18 01:07:01 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-18 01:07:01 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 01:07:07 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - Welcome jindalmohit,What you wanna do today?
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - 4)LogOut
+[main] 2021-08-18 01:07:11 INFO  com.app.Main  - Enter your choice between 1-
+[main] 2021-08-18 01:07:33 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-18 01:07:33 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-18 01:07:33 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 02:12:14 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 02:12:41 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-18 02:12:41 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 02:44:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 02:44:56 INFO  com.app.Main  - Credentials is not matched with our Database!
+[main] 2021-08-18 02:44:56 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-18 02:44:56 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-18 02:44:56 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 02:45:49 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:45:51 INFO  com.app.Main  - Enter your choice between 1-5
+[main] 2021-08-18 02:45:55 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-18 02:46:05 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-18 02:46:10 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-18 02:46:15 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-18 02:46:21 WARN  com.app.Main  - No value specified for parameter 5
+[main] 2021-08-18 02:46:21 WARN  com.app.Main  - Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:46:21 INFO  com.app.Main  - Enter your choice between 1-5
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 02:48:01 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 02:48:07 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-18 02:48:07 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 02:48:18 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:48:22 INFO  com.app.Main  - Enter your choice between 1-5
+[main] 2021-08-18 02:48:24 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-18 02:48:29 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-18 02:48:32 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-18 02:48:43 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-18 02:48:50 WARN  com.app.Main  - No value specified for parameter 5
+[main] 2021-08-18 02:48:50 WARN  com.app.Main  - Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:48:50 INFO  com.app.Main  - Enter your choice between 1-5
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - Who you are
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-18 02:50:03 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-18 02:50:05 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-18 02:50:05 INFO  com.app.Main  - Enter your username
+[main] 2021-08-18 02:50:11 INFO  com.app.Main  - Enter your password
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:50:15 INFO  com.app.Main  - Enter your choice between 1-5
+[main] 2021-08-18 02:50:16 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-18 02:50:20 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-18 02:50:24 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-18 02:50:26 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - 2)Search Products By filter
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - 3)Mark the Status of Order
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - 5)LogOut
+[main] 2021-08-18 02:50:30 INFO  com.app.Main  - Enter your choice between 1-5

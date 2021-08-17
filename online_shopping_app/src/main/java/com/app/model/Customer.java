@@ -4,16 +4,9 @@ public class Customer {
 
 	private int customerId;
 	private String customerName;
-	private String customerEmail;
+	private String customerUsername;
 	private String customerPassword;
-
-	public Customer(int customerId, String customerName, String customerEmail, String customerPassword) {
-		super();
-		this.customerId = customerId;
-		this.customerName = customerName;
-		this.customerEmail = customerEmail;
-		this.customerPassword = customerPassword;
-	}
+	private String customerEmail;
 
 	public int getCustomerId() {
 		return customerId;
@@ -31,12 +24,12 @@ public class Customer {
 		this.customerName = customerName;
 	}
 
-	public String getCustomerEmail() {
-		return customerEmail;
+	public String getCustomerUsername() {
+		return customerUsername;
 	}
 
-	public void setCustomerEmail(String customerEmail) {
-		this.customerEmail = customerEmail;
+	public void setCustomerUsername(String customerUsername) {
+		this.customerUsername = customerUsername;
 	}
 
 	public String getCustomerPassword() {
@@ -47,10 +40,33 @@ public class Customer {
 		this.customerPassword = customerPassword;
 	}
 
+	public String getCustomerEmail() {
+		return customerEmail;
+	}
+
+	public void setCustomerEmail(String customerEmail) {
+		this.customerEmail = customerEmail;
+	}
+
 	@Override
 	public String toString() {
-		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerEmail="
-				+ customerEmail + ", customerPassword=" + customerPassword + "]";
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerUsername="
+				+ customerUsername + ", customerPassword=" + customerPassword + ", customerEmail=" + customerEmail
+				+ "]";
+	}
+
+	public Customer(String customerName, String customerUsername, String customerPassword, String customerEmail) {
+		super();
+		this.customerName = customerName;
+		this.customerUsername = customerUsername;
+		this.customerPassword = customerPassword;
+		this.customerEmail = customerEmail;
+	}
+
+	public Customer(int customerId, String customerName, String customerUsername, String customerPassword,
+			String customerEmail) {
+		this(customerName, customerUsername, customerPassword, customerEmail);
+		this.customerId = customerId;
 	}
 
 }
