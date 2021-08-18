@@ -21,7 +21,7 @@ public class CustomerDAOImp implements CustomerDAO {
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
 		boolean login = false;
 		try (Connection connection = MyDbConnection.getConnection()) {
-			String sql = "select customerUsername,customerPassword from customer where customerUsername=? and customerPassword = ?";
+			String sql = "select cu_username,cu_password from customer where cu_username=? and cu_password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
@@ -44,7 +44,7 @@ public class CustomerDAOImp implements CustomerDAO {
 		int c = 0;
 		try (Connection connection = MyDbConnection.getConnection()) {
 
-			String sql = "insert into customer(customerName,customerUsername,customerPassword,customerEmail) values(?,?,?,?)";
+			String sql = "insert into customer(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
 
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 			preparedStatement.setString(1, customer.getCustomerName());

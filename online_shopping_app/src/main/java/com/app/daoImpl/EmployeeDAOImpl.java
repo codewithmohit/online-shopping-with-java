@@ -19,7 +19,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
 		boolean login = false;
 		try (Connection connection = MyDbConnection.getConnection()) {
-			String sql = "select employeeUsername,employeePassword from employee where employeeUsername=? and employeePassword = ?";
+			String sql = "select emp_username,emp_password from employee where emp_username=? and emp_password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);

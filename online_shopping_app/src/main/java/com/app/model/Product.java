@@ -69,4 +69,8 @@ public class Product {
 		this.productId = productId;
 	}
 
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+
 }
