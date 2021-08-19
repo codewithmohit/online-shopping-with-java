@@ -5476,3 +5476,1323 @@ Welcome to Search Customer(You can search Customer from various criteria from be
 [main] 2021-08-20 01:15:54 INFO  com.app.Main  - ********************************
 [main] 2021-08-20 01:15:54 INFO  com.app.Main  - 1)Mark Status
 [main] 2021-08-20 01:15:54 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:47:24 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:47:29 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:47:29 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:47:29 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:47:34 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:47:38 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - There are 9 Orders and details are below --> 
+
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:47:44 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:47:56 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - There are 9 Orders and details are below --> 
+
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:48:17 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:48:31 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:48:36 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 01:48:36 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:36 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:48:36 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:48:43 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 01:48:45 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:48:48 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 01:48:48 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:48 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:48:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:48:56 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:48:59 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:49:24 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:49:28 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 01:49:28 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:49:28 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:49:28 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:49:28 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:49:29 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:49:29 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:49:29 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:49:32 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:49:37 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - There are 9 Orders and details are below --> 
+
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:49:40 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:49:44 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - There are 9 Orders and details are below --> 
+
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:49:52 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:49:55 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - There are 9 Orders and details are below --> 
+
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:49:58 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:50:06 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:50:08 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 01:50:08 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:08 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:50:08 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:50:12 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 01:50:14 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:50:15 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 01:50:15 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:15 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:50:17 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:50:22 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:50:36 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:50:47 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:50:51 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:50:58 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Shipped
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:51:05 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:51:08 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:51:09 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:58:50 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:58:53 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:58:53 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:58:53 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:58:59 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:59:03 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:59:06 INFO  com.app.Main  - Parameter index out of range (2 > number of parameters, which is 1). Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-20 01:59:06 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:59:06 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:59:06 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 01:59:30 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 01:59:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:59:31 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 01:59:31 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 01:59:37 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 01:59:40 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - There are 5 Orders and details are below --> 
+
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:59:42 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:59:52 WARN  com.app.Main  - Please enter valid choice (1-2)
+
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - There are 5 Orders and details are below --> 
+
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:59:52 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 01:59:54 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 01:59:58 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:03 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - There are 3 Orders and details are below --> 
+
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:05 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:09 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - There are 2 Orders and details are below --> 
+
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:12 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:14 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - There are 1 Orders and details are below --> 
+
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - There are 1 Orders and details are below --> 
+
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:17 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:23 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:00:25 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:00:25 INFO  com.app.Main  - Customers have no orders Yet!!
+[main] 2021-08-20 02:00:25 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:25 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:25 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:00:29 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:00:33 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 02:00:35 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:00:37 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 02:00:37 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:37 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:00:38 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - Welcome abcde, What you wanna do today?
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:00:42 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:00:50 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:00:56 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=3, productName=mouse, productPrice=500.2, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=5, productName=Phone, productPrice=26532.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=1, productName=TV, productPrice=45000.0, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=2, productName=Phone, productPrice=45200.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=4, productName=Pizza, productPrice=50003.0, productRating=4.6, productCategoryId=2]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - Product [productId=6, productName=Freeze, productPrice=254152.0, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - 
+
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 02:00:59 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 02:01:01 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 02:01:03 INFO  com.app.Main  - Product 6 added successfully to cart!!!
+
+[main] 2021-08-20 02:01:03 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 02:01:03 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 02:01:03 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:01:04 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - There are 1 product in Cart and details are below --> 
+
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - Cart [productName=Freeze, price=254152.0]
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - 
+Total Price is 254152.0
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 02:01:06 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - Ordered Placed successfully. You can view the status of order in Main menu. Thanks for Shopping!!!!!
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:01:10 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:01:14 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:01:46 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:01:54 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:01:58 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - There are 3 Orders and details are below --> 
+
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:01:59 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:02:08 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - There are 2 Orders and details are below --> 
+
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:02:09 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:02:14 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - There are 2 Orders and details are below --> 
+
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:02:16 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:18:25 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 02:18:29 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:18:31 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 02:18:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:18:31 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:18:34 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - Welcome abcde, What you wanna do today?
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:18:38 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - There are 6 Orders and details are below --> 
+
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 5 is a Freeze of price 254152.0 The Current Order Status is Received
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 6 is a Phone of price 26532.0 The Current Order Status is Received
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 8 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - The Order id 10 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:18:40 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:18:49 INFO  com.app.Main  - There are 1 Orders and details are below --> 
+
+[main] 2021-08-20 02:18:49 INFO  com.app.Main  - The Order id 10 is a Freeze of price 254152.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:18:49 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:18:49 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:18:49 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:19:44 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 02:19:47 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:19:50 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 02:19:50 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:19:50 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:19:55 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:19:58 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:20:01 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - Sorry Cart is Empty!!
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:20:12 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:20:14 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:20:34 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - There are 3 Orders and details are below --> 
+
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - The Order id 7 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - The Order id 9 is a Phone of price 45200.0 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:20:35 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:20:40 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:20:42 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:24:29 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 02:24:31 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:24:32 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 02:24:32 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:24:32 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:24:37 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:24:41 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:24:44 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:24:53 INFO  com.app.Main  - No value specified for parameter 2 Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-20 02:24:53 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:24:53 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:24:53 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:25:19 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 02:25:23 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:25:24 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 02:25:24 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:24 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:25:27 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:25:30 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=3, productName=mouse, productPrice=500.2, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=5, productName=Phone, productPrice=26532.0, productRating=4.5, productCategoryId=1]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=1, productName=TV, productPrice=45000.0, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=2, productName=Phone, productPrice=45200.0, productRating=4.6, productCategoryId=1]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=4, productName=Pizza, productPrice=50003.0, productRating=4.6, productCategoryId=2]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - Product [productId=6, productName=Freeze, productPrice=254152.0, productRating=4.1, productCategoryId=1]
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - 
+
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 02:25:31 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 02:25:32 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-20 02:25:35 INFO  com.app.Main  - Product 2 added successfully to cart!!!
+
+[main] 2021-08-20 02:25:35 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 02:25:35 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 02:25:35 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 02:25:36 WARN  com.app.Main  - Please enter valid choice (1-2)
+
+[main] 2021-08-20 02:25:36 INFO  com.app.Main  - *******************************************
+[main] 2021-08-20 02:25:36 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-20 02:25:36 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:25:39 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - There are 1 product in Cart and details are below --> 
+
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - Cart [productName=Phone, price=45200.0]
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - 
+Total Price is 45200.0
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-20 02:25:43 INFO  com.app.Main  - 2)No
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - Ordered Placed successfully. You can view the status of order in Main menu. Thanks for Shopping!!!!!
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:25:45 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - There are 5 Orders and details are below --> 
+
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - The Order id 11 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:25:49 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:25:58 INFO  com.app.Main  - There are 1 Orders and details are below --> 
+
+[main] 2021-08-20 02:25:58 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Shipped
+[main] 2021-08-20 02:25:58 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:25:58 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:25:58 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:26:07 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-20 02:26:09 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-20 02:26:09 INFO  com.app.Main  - Customers have no orders Yet!!
+[main] 2021-08-20 02:26:09 INFO  com.app.Main  - ********************************
+[main] 2021-08-20 02:26:09 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-20 02:26:09 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:26:13 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - There are 5 Orders and details are below --> 
+
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - The Order id 2 is a TV of price 45000.0 The Current Order Status is Received
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - The Order id 11 is a Phone of price 45200.0 The Current Order Status is Ordered
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - The Order id 3 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - The Order id 4 is a mouse of price 500.2 The Current Order Status is Received
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - The Order id 1 is a Pizza of price 50003.0 The Current Order Status is Received
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 02:26:17 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:51:55 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:51:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:51:56 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:51:56 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:51:56 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:52:00 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:01 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:02 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:02 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 02:52:02 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:04 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:04 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:04 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-20 02:52:04 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:06 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:07 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:07 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-20 02:52:07 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:10 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:10 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:10 INFO  com.app.Main  - 
+Remain chance to try login again is 1
+
+[main] 2021-08-20 02:52:10 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:12 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:13 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:13 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+
+[main] 2021-08-20 02:52:13 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:52:16 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:52:17 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:52:17 INFO  com.app.Main  - 
+Remain chance to try login again is -1
+
+[main] 2021-08-20 02:52:17 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:53:04 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:53:08 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:08 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:53:08 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:53:08 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:53:09 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:53:10 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:53:11 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 02:53:11 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:11 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:53:11 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:53:11 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:53:39 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:53:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:41 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:53:41 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:53:41 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:53:43 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 02:53:43 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:53:43 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:53:43 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:53:43 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:53:45 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:45 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:46 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:46 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 02:53:46 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:48 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:49 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:49 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-20 02:53:49 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:51 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:52 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:52 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-20 02:53:52 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:53 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:53 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:53 INFO  com.app.Main  - 
+Remain chance to try login again is 1
+
+[main] 2021-08-20 02:53:53 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:55 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:55 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:55 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+
+[main] 2021-08-20 02:53:55 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:53:58 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:53:58 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:53:58 INFO  com.app.Main  - 
+Remain chance to try login again is -1
+
+[main] 2021-08-20 02:53:58 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 02:59:55 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 02:59:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:59:56 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:59:56 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:59:56 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:59:57 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:59:58 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 02:59:59 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 02:59:59 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 02:59:59 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 02:59:59 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 02:59:59 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:00:00 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 03:00:00 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:00:00 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:00:00 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:00:00 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:00:06 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:00:08 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:00:09 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:02:21 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:02:27 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:02:27 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:02:27 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:02:27 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:02:27 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:28 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:28 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:28 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 03:02:28 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:30 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:32 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:32 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-20 03:02:32 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:34 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:35 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:35 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-20 03:02:35 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:36 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:37 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:37 INFO  com.app.Main  - 
+Remain chance to try login again is 1
+
+[main] 2021-08-20 03:02:37 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:39 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:02:40 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:02:48 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:49 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-20 03:02:50 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - 
+Remain chance to try login again is 1
+
+[main] 2021-08-20 03:02:51 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:02:52 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:02:54 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 03:02:54 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:02:54 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:02:54 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:02:54 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:02:57 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-20 03:02:57 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:02:57 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:02:57 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:02:57 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:03:01 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:03:01 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:03:01 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:03:01 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:03:03 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:03:08 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 03:03:12 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 03:03:13 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 03:03:13 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:03:13 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:03:13 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:03:13 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:03:15 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-20 03:03:15 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:03:15 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:03:15 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:03:15 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 03:03:25 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:11:31 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:11:33 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:33 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:11:33 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:11:33 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:11:35 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:35 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:36 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:11:36 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 03:11:36 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:37 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:37 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:11:37 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-20 03:11:37 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - 
+Remain chance to try login again is 1
+
+[main] 2021-08-20 03:11:38 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 
+Remain chance to try login again is 0
+
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:11:39 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:11:42 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-20 03:11:42 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:42 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:11:42 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:11:42 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:11:44 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:11:48 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 03:11:51 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-20 03:11:53 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 03:11:53 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:53 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-20 03:11:53 INFO  com.app.Main  - 1) login
+[main] 2021-08-20 03:11:53 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-20 03:11:57 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-20 03:11:57 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:11:57 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:11:57 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:11:57 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 03:11:59 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:12:04 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 03:12:04 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:12:04 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:12:06 INFO  com.app.Main  - Enter your username
+[main] 2021-08-20 03:12:12 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - Welcome Mohit Jindal, What you wanna do today?
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-20 03:12:14 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - 1)Login
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-20 03:12:16 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:12:20 INFO  com.app.Main  - ***Going to main menu***
+[main] 2021-08-20 03:12:20 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-20 03:12:20 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-20 03:12:20 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-20 03:12:20 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-20 03:12:22 INFO  com.app.Main  - Thanks for using our Shopping app. see you again!

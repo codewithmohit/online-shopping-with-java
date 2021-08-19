@@ -10,6 +10,8 @@ public interface OrderService {
 	
 	public List<Order> getOrderList(int customerId) throws BusinessException;
 	
+	public List<Order> markGetOrderList(int customerId) throws BusinessException;
+	
 	public List<Order> getOrderList() throws BusinessException;
 	
 	public int updateOrderStatus(int orderId,String status) throws BusinessException;

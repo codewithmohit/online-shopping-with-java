@@ -38,5 +38,12 @@ public class OrderServiceImpl implements OrderService{
 		int c = orderDAO.updateOrderStatus(orderId,status);
 		return c;
 	}
+
+	@Override
+	public List<Order> markGetOrderList(int customerId) throws BusinessException {
+		List<Order> orderList = new ArrayList<>();
+		orderList = orderDAO.markGetOrderList(customerId);
+		return orderList;
+	}
 	
 }
