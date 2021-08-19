@@ -21,8 +21,8 @@ public class CustomerServiceImp implements CustomerService {
 			customer = customerDAO.checkValidCredentials(username, password);
 		}
 		return customer;
-	}
-
+	}					
+				
 	@Override
 	public int createAccount(Customer customer) throws BusinessException {
 		int c = 0;

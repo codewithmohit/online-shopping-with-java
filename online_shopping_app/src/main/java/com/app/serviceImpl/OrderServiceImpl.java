@@ -15,8 +15,7 @@ public class OrderServiceImpl implements OrderService{
 	
 	@Override
 	public int createOrder(int customerId, int productId, double price) throws BusinessException {
-		int c;
-		c = orderDAO.createOrder(customerId, productId, price);
+		int c = orderDAO.createOrder(customerId, productId, price);
 		return c;
 	}
 
@@ -25,6 +24,19 @@ public class OrderServiceImpl implements OrderService{
 		List<Order> orderList = new ArrayList<>();
 		orderList = orderDAO.getOrderList(customerId);
 		return orderList;
+	}
+
+	@Override
+	public List<Order> getOrderList() throws BusinessException {
+		List<Order> orderList = new ArrayList<>();
+		orderList = orderDAO.getOrderList();
+		return orderList;
+	}
+
+	@Override
+	public int updateOrderStatus(int orderId,String status) throws BusinessException {
+		int c = orderDAO.updateOrderStatus(orderId,status);
+		return c;
 	}
 	
 }

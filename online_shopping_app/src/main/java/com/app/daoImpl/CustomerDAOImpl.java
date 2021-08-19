@@ -52,7 +52,8 @@ public class CustomerDAOImpl implements CustomerDAO {
 		try (Connection connection = MyDbConnection.getConnection()) {
 
 			String sql = "insert into customer(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
-
+			
+			log.info(customer.getCustomerPassword());
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, customer.getCustomerName());
 			preparedStatement.setString(2, customer.getCustomerUsername());

@@ -16,9 +16,6 @@ public interface CustomerService {
 	
 	public Customer getCustomerByEmail(String customerEmail) throws BusinessException;
 	
-	public Customer getCustomerByOrderId(int orderId) throws BusinessException;
-	
-	
-	
+	public Customer getCustomerByOrderId(int orderId) throws BusinessException;	
 
 }

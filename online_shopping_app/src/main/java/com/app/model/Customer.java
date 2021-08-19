@@ -61,12 +61,14 @@ public class Customer {
 		this.customerName = customerName;
 		this.customerUsername = customerUsername;
 		this.customerEmail = customerEmail;
+		
 	}
 	
 	public Customer(String customerName, String customerUsername, String customerPassword,
 			String customerEmail) {
 		this(customerName, customerUsername, customerEmail);
 		this.customerEmail = customerEmail;
+		this.customerPassword = customerPassword;
 	}
 
 	public Customer() {
