@@ -1,5 +1,7 @@
 package com.app.serviceImpl;
 
+import java.util.List;
+
 import com.app.businessException.BusinessException;
 import com.app.dao.CustomerDAO;
 import com.app.daoImpl.CustomerDAOImpl;
@@ -28,6 +30,34 @@ public class CustomerServiceImp implements CustomerService {
 		c = customerDAO.createAccount(customer);
 
 		return c;
+	}
+
+	@Override
+	public Customer getCustomerByCustomerId(int customerId) throws BusinessException {
+		Customer customer = null;
+		customer = customerDAO.getCustomerByCustomerId(customerId);
+		return customer;
+	}
+
+	@Override
+	public List<Customer> getCustomerByName(String customerName) throws BusinessException {
+		List<Customer> customerList = null;
+		customerList = customerDAO.getCustomerByName(customerName);
+		return customerList;
+	}
+
+	@Override
+	public Customer getCustomerByEmail(String customerEmail) throws BusinessException {
+		Customer customer = null;
+		customer = customerDAO.getCustomerByEmail(customerEmail);
+		return customer;
+	}
+
+	@Override
+	public Customer getCustomerByOrderId(int orderId) throws BusinessException {
+		Customer customer = null;
+		customer = customerDAO.getCustomerByOrderId(orderId);
+		return customer;
 	}
 
 }

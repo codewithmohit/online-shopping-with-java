@@ -30,7 +30,7 @@ public class Main {
 	static ProductService productService = new ProductServiceImp();
 	static CartService cartService = new CartServiceImpl();
 	static OrderService orderService = new OrderServiceImpl();
-	static CustomerService customerLogin = new CustomerServiceImp();
+	static CustomerService customerService = new CustomerServiceImp();
 	static Customer customer = new Customer();
 	static EmployeeService employeeLogin = new EmployeeServiceImp();
 	// ************************** View All Products ******************************************
@@ -61,11 +61,6 @@ public class Main {
 			log.info("Enter your choice-->");
 			try {
 				choice = Integer.parseInt(scanner.nextLine());
-			} catch (NumberFormatException e) {
-				log.info("Entry is not appropriate. Please Enter Valid Choice\n");
-				continue;
-			}
-			try {
 			switch(choice) {
 			case 1:
 				log.info("Enter Product Name to find your Product-->");
@@ -92,7 +87,10 @@ public class Main {
 				break;
 			default:
 				log.warn("Please enter valid choice (1-3)\n");
-			}
+				}
+			} catch (NumberFormatException e) {
+				log.info("Entry is not appropriate. Please Enter Valid Choice\n");
+				continue;
 			}catch(BusinessException e) {
 				 log.info(e.getMessage());
 				 continue;
@@ -235,20 +233,48 @@ public class Main {
 			log.info("Enter your choice-->");
 			try {
 				choice = Integer.parseInt(scanner.nextLine());
-			
 			switch(choice) {
 			case 1:
 				log.info("Enter Customer Id to find Customer-->");
+				int customerId = Integer.parseInt(scanner.nextLine());
 				
+				Customer result1 = customerService.getCustomerByCustomerId(customerId);
+				
+				if(result1!= null) {
+					log.info(result1);
+				}
 				break;
 			case 2:
 				log.info("Enter Customer Name to find Customer-->");
+				String name = scanner.nextLine();
+				
+				List<Customer> customerList = customerService.getCustomerByName(name);
+				
+				if(customerList.size()>0) {
+					for (Customer customer : customerList) {
+						log.info(customer);
+					}
+				}
 				break;
 			case 3:
-				log.info("Enter Customer Email-Id to find Customer-->");
+				log.info("Enter Customer Email-Id to find Customer-->");			
+				String email = scanner.nextLine();
+				
+				Customer result3 = customerService.getCustomerByEmail(email);
+				
+				if(result3!= null) {
+					log.info(result3);
+				}
 				break;
 			case 4:
 				log.info("Enter Order-Id to find Customer-->");
+				int orderId = Integer.parseInt(scanner.nextLine());
+				
+				Customer result4 = customerService.getCustomerByOrderId(orderId);
+				
+				if(result4!= null) {
+					log.info(result4);
+				}
 				break;
 			case 5:
 				log.info("*********** Going to previous menu *******************");
@@ -362,7 +388,7 @@ public class Main {
 					String password = scanner.nextLine();
 
 					try {
-						customer = customerLogin.checkValidCredentials(username, password);
+						customer = customerService.checkValidCredentials(username, password);
 						if (customer!= null) {
 							
 							log.info("Login Successfully!!!!!!!");

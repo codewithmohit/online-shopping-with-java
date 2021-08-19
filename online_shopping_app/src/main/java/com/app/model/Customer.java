@@ -31,7 +31,7 @@ public class Customer {
 	public void setCustomerUsername(String customerUsername) {
 		this.customerUsername = customerUsername;
 	}
-
+	
 	public String getCustomerPassword() {
 		return customerPassword;
 	}
@@ -51,22 +51,22 @@ public class Customer {
 	@Override
 	public String toString() {
 		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerUsername="
-				+ customerUsername + ", customerPassword=" + customerPassword + ", customerEmail=" + customerEmail
+				+ customerUsername + ", customerEmail=" + customerEmail
 				+ "]";
 	}
 
-	public Customer(String customerName, String customerUsername, String customerPassword, String customerEmail) {
+	
+	public Customer(String customerName, String customerUsername, String customerEmail) {
 		super();
 		this.customerName = customerName;
 		this.customerUsername = customerUsername;
-		this.customerPassword = customerPassword;
 		this.customerEmail = customerEmail;
 	}
-
-	public Customer(int customerId, String customerName, String customerUsername, String customerPassword,
+	
+	public Customer(String customerName, String customerUsername, String customerPassword,
 			String customerEmail) {
-		this(customerName, customerUsername, customerPassword, customerEmail);
-		this.customerId = customerId;
+		this(customerName, customerUsername, customerEmail);
+		this.customerEmail = customerEmail;
 	}
 
 	public Customer() {
