@@ -7,14 +7,21 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.app.businessException.BusinessException;
+import com.app.daoImpl.OrderDAOImpl;
+import com.app.model.Cart;
 import com.app.model.Customer;
 import com.app.model.Product;
+import com.app.service.CartService;
 import com.app.service.CustomerService;
 import com.app.service.EmployeeService;
+import com.app.service.OrderService;
 import com.app.service.ProductService;
+import com.app.serviceImpl.CartServiceImpl;
 import com.app.serviceImpl.CustomerServiceImp;
 import com.app.serviceImpl.EmployeeServiceImp;
+import com.app.serviceImpl.OrderServiceImpl;
 import com.app.serviceImpl.ProductServiceImp;
+import com.mysql.cj.x.protobuf.MysqlxCrud.Order;
 
 public class Main {
 
@@ -24,7 +31,12 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 
 		Logger log = Logger.getLogger(Main.class);
-
+		
+		ProductService productService = new ProductServiceImp();
+		CartService cartService = new CartServiceImpl();
+		OrderService orderService = new OrderServiceImpl();
+		
+		
 		log.info("Welcome To Online Shopping App!");
 		log.info("**********************************");
 		int ch = 0;
@@ -54,7 +66,8 @@ public class Main {
 
 					try {
 						boolean valid = employeeLogin.checkValidCredentials(username, password);
-						if (valid) {
+						if (valid) {				
+							
 							log.info("Login Successfully!!!!!!!");
 							log.info("Welcome " + username + ",What you wanna do today?\n");
 							int choice = 0;
@@ -73,8 +86,6 @@ public class Main {
 									continue;
 								}
 								
-								ProductService productService = new ProductServiceImp();
-		
 								switch (choice) {
 								case 1:
 									int productCategoryId;
@@ -162,18 +173,19 @@ public class Main {
 							String password = scanner.nextLine();
 
 							try {
-								boolean valid = customerLogin.checkValidCredentials(username, password);
-								if (valid) {
+								Customer customer = customerLogin.checkValidCredentials(username, password);
+								if (customer!= null) {
+									
 									log.info("Login Successfully!!!!!!!");
-									log.info("Welcome " + username + ",What you wanna do today?");
+									log.info("Welcome " + customer.getCustomerName() + ", What you wanna do today?");
 									
 									do {
-										ProductService productService = new ProductServiceImp();
 										
 										log.info("1)View Products");
 										log.info("2)Search Products");
 										log.info("3)View Orders");
-										log.info("4)LogOut");
+										log.info("4)View Cart");
+										log.info("5)LogOut");
 
 										log.info("Enter your choice-->");
 										try {
@@ -183,13 +195,16 @@ public class Main {
 											continue;
 										}
 										switch (choice) {
+//    ********************** Products Details  **********************
 										case 1:
 											log.info("Products Details are Below----->");											
 											List<Product> productList = productService.getAllProducts();
 											for (Product product : productList) {
 												log.info(product);
 											}
+//    **********************  Add product in Cart **********************
 											do {
+											log.info("*******************************************");
 											log.info("1)Add any product to Cart");
 											log.info("2)Previous Menu");
 											try {
@@ -198,18 +213,25 @@ public class Main {
 												log.info("Entry is not appropriate. Please Enter Valid Choice\n");
 												continue;
 											}
+
 											 switch(choice) {
 											 case 1: 
 												 log.info("Enter Product Id to add it to cart-->");
+												 int productId;
 												 try {
-													 	choice = Integer.parseInt(scanner.nextLine());
+													 productId = Integer.parseInt(scanner.nextLine());
 													} catch (NumberFormatException e) {
 														log.info("Entry is not appropriate. Please Enter Valid Product id\n");
 														continue;
 													}
-												 log.info("Product "+choice+" added successfully to cart!!!\n");
+												 
+												 int customerId = customer.getCustomerId();
+												 if(cartService.addProductInCart(productId,customerId)==1) {
+													 log.info("Product "+productId+" added successfully to cart!!!\n");
+												 }												 
 												 break;
 											 case 2:
+												 log.info("***Going to Previous Menu***");
 												 break;
 												default:
 													log.warn("Please enter valid choice (1-4)\n");
@@ -218,6 +240,8 @@ public class Main {
 											}while(choice!=2);
 											break;
 										case 2:
+											
+//   ********************** Search a product from various criteria   *************************		
 											
 											do {
 											log.info("Welcome to Product Search(You can search a product from various criteria from below menu--->)");
@@ -264,15 +288,63 @@ public class Main {
 											}
 											}while(choice!=4);
 											break;
+// ************************* View Orders ******************************************
 										case 3:
+											List<Order> orderList = orderService.getOrderList(customer.getCustomerId());
+											log.info("There are "+ orderList.size() +" Orders and details are below --> \n");
+											for (Order order : orderList) {
+												log.info(order);
+											}
 											break;
 										case 4:
+											
+											List<Cart> cartList = cartService.getProductFromCart(customer.getCustomerId());
+											log.info("There are "+ cartList.size() +" product in Cart and details are below --> \n");
+											for (Cart cart : cartList) {
+												log.info(cart);
+											}
+											int option = 0;
+											do {
+											log.info("\n");
+											log.info("Do you wish to place order for above products?");
+											log.info("1)Yes");
+											log.info("2)No");
+											
+											try {
+												option = Integer.parseInt(scanner.nextLine());
+											} catch (NumberFormatException e) {
+												log.info("Entry is not appropriate. Please Enter Valid Choice\n");
+												continue;
+											}
+											switch(option) {
+											case 1:
+												int customerId = customer.getCustomerId();
+												int result = 0;
+												for (Cart cart : cartList) {
+													int productId = cart.getProductId();
+													double productPrice = cart.getPrice();
+													result = orderService.createOrder(customerId, productId, productPrice);
+												}
+												if(result ==1) {
+													log.info("Ordered Placed successfully. You can view the status of order"
+														+ " in Main menu. Thanks for Shopping!!!!!");
+												}
+												break;
+											case 2:
+												log.info("***Going to Previous menu***");
+												break;
+											default:
+												log.warn("Please enter valid choice (1-2)\n");
+											}
+											}while(option!=1 || option!=2);
+											break;
+										case 5:
 											log.info("Logout Successfully");
 											break;
 										default:
 											log.warn("Please enter valid choice (1-4)\n");
 										}
-									} while (choice != 4);
+									} while (choice != 5);
 								}
 							} catch (BusinessException e) {
 								log.info(e.getMessage());

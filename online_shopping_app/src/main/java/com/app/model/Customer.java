@@ -69,4 +69,8 @@ public class Customer {
 		this.customerId = customerId;
 	}
 
+	public Customer() {
+		
+	}
+
 }

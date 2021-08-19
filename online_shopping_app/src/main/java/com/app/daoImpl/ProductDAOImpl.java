@@ -8,16 +8,12 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-
-import com.app.Main;
 import com.app.businessException.BusinessException;
 import com.app.dao.ProductDAO;
 import com.app.dao.dbutils.MyDbConnection;
 import com.app.model.Product;
 
 public class ProductDAOImpl implements ProductDAO {
-	Logger log = Logger.getLogger(Main.class);
 	
 	@Override
 	public List<Product> getAllProducts() throws BusinessException {
@@ -40,15 +36,14 @@ public class ProductDAOImpl implements ProductDAO {
 				throw new BusinessException("Sorry Product is not available now!!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+			throw new BusinessException(e.getMessage()+ " Internal Problem Occured. Contact sysAdmin!");
 		}
 		return productList;
 	}
 	
 	@Override
 	public int addProduct(Product product) throws BusinessException {
-		int c = 0;
+		int c;
 		try (Connection connection = MyDbConnection.getConnection()) {
 			String sql = "insert into product(pro_name,pro_price,pro_rating,pro_cat_id) values(?,?,?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
@@ -59,8 +54,8 @@ public class ProductDAOImpl implements ProductDAO {
 
 			c = preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+			
+			throw new BusinessException(e.getMessage()+" Internal Problem Occured. Contact sysAdmin!");
 		}
 		return c;
 	}
@@ -93,8 +88,7 @@ public class ProductDAOImpl implements ProductDAO {
 				throw new BusinessException("Sorry Product is not available now!!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+			throw new BusinessException(e.getMessage()+ " Internal Problem Occured. Contact sysAdmin!");
 		}
 		return productList;
 	}
@@ -121,8 +115,7 @@ public class ProductDAOImpl implements ProductDAO {
 				throw new BusinessException("Sorry Product is not available now!!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e.getMessage());
-			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
+			throw new BusinessException(e.getMessage()+ " Internal Problem Occured. Contact sysAdmin!");
 		}
 		return productList;
 	}

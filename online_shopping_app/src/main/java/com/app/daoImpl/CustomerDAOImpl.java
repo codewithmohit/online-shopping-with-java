@@ -14,21 +14,26 @@ import com.app.dao.CustomerDAO;
 import com.app.dao.dbutils.MyDbConnection;
 import com.app.model.Customer;
 
-public class CustomerDAOImp implements CustomerDAO {
+public class CustomerDAOImpl implements CustomerDAO {
 	Logger log = Logger.getLogger(Main.class);
 
 	@Override
-	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
-		boolean login = false;
+	public Customer checkValidCredentials(String username, String password) throws BusinessException {
+		Customer customer = null;
 		try (Connection connection = MyDbConnection.getConnection()) {
-			String sql = "select cu_username,cu_password from customer where cu_username=? and cu_password = ?";
+			String sql = "select cu_id,cu_name,cu_username,cu_password,cu_email from customer where cu_username=? and cu_password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
 
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if (resultSet.next()) {
-				login = true;
+				customer = new Customer();
+				customer.setCustomerId(resultSet.getInt("cu_id"));
+				customer.setCustomerName(resultSet.getString("cu_name"));
+				customer.setCustomerUsername(resultSet.getString("cu_username"));
+				customer.setCustomerPassword(resultSet.getString("cu_password"));
+				customer.setCustomerEmail(resultSet.getString("cu_email"));
 			} else {
 				throw new BusinessException("Credentials is not matched with our Database!");
 			}
@@ -36,7 +41,7 @@ public class CustomerDAOImp implements CustomerDAO {
 			log.warn(e.getMessage());
 			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
 		}
-		return login;
+		return customer;
 	}
 
 	@Override
