@@ -11,4 +11,6 @@ public interface CartDAO {
 	public int addProductInCart(int productId,int customerId) throws BusinessException;
 	
 	public List<Cart> getProductFromCart(int customerId) throws BusinessException;
+	
+	public int deleteProductInCart(int customerId) throws BusinessException;
 }

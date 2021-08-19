@@ -24,6 +24,12 @@ public class CartServiceImpl implements CartService{
 		cart = cartDAO.getProductFromCart(customerId);
 		return cart;
 	}
+
+	@Override
+	public int deleteProductInCart(int customerId) throws BusinessException {
+		int c = cartDAO.deleteProductInCart(customerId);
+		return c;
+	}
 	
 
 }

@@ -1,7 +1,7 @@
 package com.app.model;
 
 public class Order {
-	
+	private int orderId;
 	private int productId;
 	private String productName;
 	private double price;
@@ -9,12 +9,12 @@ public class Order {
 	public Order() {
 		super();
 	}
-	public Order(int productId, String productName, double price, String orderStatus) {
-		super();
-		this.productId = productId;
-		this.productName = productName;
-		this.price = price;
-		this.orderStatus = orderStatus;
+	
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
 	}
 	public int getProductId() {
 		return productId;
@@ -40,6 +40,11 @@ public class Order {
 	public void setOrderStatus(String orderStatus) {
 		this.orderStatus = orderStatus;
 	}
+	@Override
+	public String toString() {
+		return "The Order id "+orderId + " is a " + productName + " of price " + price + " The Current Order Status is " + orderStatus;
+	}
+	
 	
 	
 }

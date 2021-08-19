@@ -59,4 +59,19 @@ public class CartDAOImpl implements CartDAO{
 		return cartList;
 	}
 
+	@Override
+	public int deleteProductInCart(int customerId) throws BusinessException {
+		int c = 0;
+		try (Connection connection = MyDbConnection.getConnection()) {
+			String sql = "delete from cart where ca_cu_id=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1,customerId);
+			c = preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException(e.getMessage()+ " Internal Problem Occured. Contact sysAdmin!");
+		}
+		return c;
+	}
+
 }

@@ -7,9 +7,9 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.app.businessException.BusinessException;
-import com.app.daoImpl.OrderDAOImpl;
 import com.app.model.Cart;
 import com.app.model.Customer;
+import com.app.model.Order;
 import com.app.model.Product;
 import com.app.service.CartService;
 import com.app.service.CustomerService;
@@ -21,7 +21,7 @@ import com.app.serviceImpl.CustomerServiceImp;
 import com.app.serviceImpl.EmployeeServiceImp;
 import com.app.serviceImpl.OrderServiceImpl;
 import com.app.serviceImpl.ProductServiceImp;
-import com.mysql.cj.x.protobuf.MysqlxCrud.Order;
+
 
 public class Main {
 
@@ -180,7 +180,6 @@ public class Main {
 									log.info("Welcome " + customer.getCustomerName() + ", What you wanna do today?");
 									
 									do {
-										
 										log.info("1)View Products");
 										log.info("2)Search Products");
 										log.info("3)View Orders");
@@ -194,6 +193,7 @@ public class Main {
 											log.info("Entry is not appropriate. Please Enter Valid Choice\n");
 											continue;
 										}
+										try {
 										switch (choice) {
 //    ********************** Products Details  **********************
 										case 1:
@@ -226,17 +226,21 @@ public class Main {
 													}
 												 
 												 int customerId = customer.getCustomerId();
-												 if(cartService.addProductInCart(productId,customerId)==1) {
-													 log.info("Product "+productId+" added successfully to cart!!!\n");
-												 }												 
+												 try {
+													 if(cartService.addProductInCart(productId,customerId)==1) 
+														 log.info("Product "+productId+" added successfully to cart!!!\n");
+												 }catch(BusinessException e) {
+													 log.info(e.getMessage());
+													 continue;
+												 }
+												 
 												 break;
 											 case 2:
 												 log.info("***Going to Previous Menu***");
 												 break;
-												default:
-													log.warn("Please enter valid choice (1-4)\n");
+											 default:
+												 log.warn("Please enter valid choice (1-2)\n");
 											 }
-											
 											}while(choice!=2);
 											break;
 										case 2:
@@ -247,8 +251,7 @@ public class Main {
 											log.info("Welcome to Product Search(You can search a product from various criteria from below menu--->)");
 											log.info("1)By Name");
 											log.info("2)By Category");
-											log.info("3)View Cart");
-											log.info("4)Previous Menu");
+											log.info("3)Previous Menu");
 											log.info("Enter your choice-->");
 											try {
 												choice = Integer.parseInt(scanner.nextLine());
@@ -256,36 +259,38 @@ public class Main {
 												log.info("Entry is not appropriate. Please Enter Valid Choice\n");
 												continue;
 											}
+											try {
 											switch(choice) {
 											case 1:
 												log.info("Enter Product Name to find your Product-->");
 												String productName = scanner.nextLine();
 												List<Product> productListByName = new ArrayList<>();
 												
-												productListByName = productService.getProductByName(productName);
-												for (Product product : productListByName) {
-													log.info(product);
-												}
-												
+													productListByName = productService.getProductByName(productName);
+													for (Product product : productListByName) {
+														log.info(product);
+													}
 												break;
 											case 2:
 												log.info("Enter Product Category to find your Product-->");
 												String productCategory = scanner.nextLine();
 												List<Product> productListByCategory = new ArrayList<>();
 												
-												productListByName = productService.getProductByCategory(productCategory);
-												for (Product product : productListByName) {
+												productListByCategory = productService.getProductByCategory(productCategory);
+												for (Product product : productListByCategory) {
 													log.info(product);
 												}
 												break;
 											case 3:
-												break;
-											case 4:
 												log.info("***Going to Previous Menu***");
 												break;
 											default:
 												log.warn("Please enter valid choice (1-3)\n");
 											}
+											}catch(BusinessException e) {
+												 log.info(e.getMessage());
+												 continue;
+											 }
 											}while(choice!=4);
 											break;
 // ************************* View Orders ******************************************
@@ -296,14 +301,21 @@ public class Main {
 												log.info(order);
 											}
 											break;
+// ************************* View cart and Order ************************************
 										case 4:
-											
+											try {
 											List<Cart> cartList = cartService.getProductFromCart(customer.getCustomerId());
 											log.info("There are "+ cartList.size() +" product in Cart and details are below --> \n");
+											
+											double totalPrice = 0.0d;
 											for (Cart cart : cartList) {
 												log.info(cart);
+												totalPrice+= cart.getPrice();
 											}
-											int option = 0;
+												log.info("\nTotal Price is "+totalPrice);
+											
+											int chance = 0;
+											
 											do {
 											log.info("\n");
 											log.info("Do you wish to place order for above products?");
@@ -311,12 +323,8 @@ public class Main {
 											log.info("2)No");
 											
 											try {
-												option = Integer.parseInt(scanner.nextLine());
-											} catch (NumberFormatException e) {
-												log.info("Entry is not appropriate. Please Enter Valid Choice\n");
-												continue;
-											}
-											switch(option) {
+												chance = Integer.parseInt(scanner.nextLine());
+											switch(chance) {
 											case 1:
 												int customerId = customer.getCustomerId();
 												int result = 0;
@@ -326,8 +334,10 @@ public class Main {
 													result = orderService.createOrder(customerId, productId, productPrice);
 												}
 												if(result ==1) {
-													log.info("Ordered Placed successfully. You can view the status of order"
-														+ " in Main menu. Thanks for Shopping!!!!!");
+													if(cartService.deleteProductInCart(customer.getCustomerId())==1) {
+														log.info("Ordered Placed successfully. You can view the status of order"
+																+ " in Main menu. Thanks for Shopping!!!!!");
+													}
 												}
 												break;
 											case 2:
@@ -336,14 +346,31 @@ public class Main {
 											default:
 												log.warn("Please enter valid choice (1-2)\n");
 											}
-											}while(option!=1 || option!=2);
+											}catch (NumberFormatException e) {
+												log.info("Entry is not appropriate. Please Enter Valid Choice\n");
+												continue;
+											}catch(BusinessException e) {
+												 log.info(e.getMessage());
+												 continue;
+											 }
+											}while(chance!=1 && chance!=2);
+											
+											}
+											catch (BusinessException e) {
+												log.info(e.getMessage());
+											}
 											break;
+											
 										case 5:
 											log.info("Logout Successfully");
-											break;
+											System.exit(1);
 										default:
 											log.warn("Please enter valid choice (1-4)\n");
 										}
+										}catch(BusinessException e) {
+											 log.info(e.getMessage());
+											 continue;
+										 }
 									} while (choice != 5);
 								}
 							} catch (BusinessException e) {

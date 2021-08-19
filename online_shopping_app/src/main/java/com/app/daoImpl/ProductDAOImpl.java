@@ -98,7 +98,8 @@ public class ProductDAOImpl implements ProductDAO {
 		List<Product> productList = new ArrayList<>();
 		
 		try (Connection connection = MyDbConnection.getConnection()) {
-			String sql = "select pro_id,pro_name,pro_price,pro_rating,pro_cat_id from product where pro_cat_id=?";
+			String sql = "select pro_id,pro_name,pro_price,pro_rating,p.pro_cat_id from product p join productCategory pc on p.pro_cat_id=pc.pro_cat_id "
+					+ "where pro_cat_name =?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, productCategory);
 			ResultSet resultSet = preparedStatement.executeQuery();			
