@@ -32,6 +32,14 @@ public class Main {
 	static CustomerService customerService = new CustomerServiceImp();
 	static Customer customer = new Customer();
 	static EmployeeService employeeLogin = new EmployeeServiceImp();
+	
+	public static boolean checkChoice(int choice) {
+		if(choice>0 && choice<6) {
+			return true;
+		}
+		return false;
+	}
+	
 
 	// ************** View All Products ********************************
 	public static void viewAllProduct() {
