@@ -9,10 +9,12 @@ import com.app.businessException.BusinessException;
 import com.app.dao.CartDAO;
 import com.app.dao.CustomerDAO;
 import com.app.dao.EmployeeDAO;
+import com.app.dao.OrderDAO;
 import com.app.dao.ProductDAO;
 import com.app.daoImpl.CartDAOImpl;
 import com.app.daoImpl.CustomerDAOImpl;
 import com.app.daoImpl.EmployeeDAOImpl;
+import com.app.daoImpl.OrderDAOImpl;
 import com.app.daoImpl.ProductDAOImpl;
 import com.app.model.Customer;
 import com.app.model.Product;
@@ -49,7 +51,7 @@ class test {
 	@Test
 	void testAddProductInCart() throws BusinessException {
 		CartDAO dao = new CartDAOImpl();
-		assertEquals(1,dao.addProductInCart(1, 2));
+		assertEquals(1,dao.addProductInCart(28,28));
 		
 	}
 	
@@ -61,13 +63,19 @@ class test {
 		
 	}
 	
-	// Test 
+	// Test Employee Login
 	@Test
 	void testEmployeeLogin() throws BusinessException {
 		
 		EmployeeDAO dao = new EmployeeDAOImpl();
 		assertEquals(true,dao.checkValidCredentials("jindalmohit2018", "123456"),"Not valid Entry");
-		
+	}
+	
+	// Test Create Order
+	@Test
+	void testCreateOrder() throws BusinessException {
+		OrderDAO dao = new OrderDAOImpl();
+		assertEquals(1, dao.createOrder(26, 28, 42222),"Not Valid Product Details or Customer Id");
 	}
 	
 
