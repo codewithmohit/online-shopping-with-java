@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,7 +52,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 			String sql = "insert into customer(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
 			
-			log.info(customer.getCustomerPassword());
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, customer.getCustomerName());
 			preparedStatement.setString(2, customer.getCustomerUsername());

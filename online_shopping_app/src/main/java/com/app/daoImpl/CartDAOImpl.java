@@ -12,7 +12,7 @@ import com.app.businessException.BusinessException;
 import com.app.dao.CartDAO;
 import com.app.dao.dbutils.MyDbConnection;
 import com.app.model.Cart;
-import com.app.model.Product;
+
 
 public class CartDAOImpl implements CartDAO{
 

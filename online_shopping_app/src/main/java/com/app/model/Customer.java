@@ -56,19 +56,19 @@ public class Customer {
 	}
 
 	
-	public Customer(String customerName, String customerUsername, String customerEmail) {
+	public Customer(String customerName, String customerUsername,String customerPassword, String customerEmail) {
 		super();
 		this.customerName = customerName;
 		this.customerUsername = customerUsername;
+		this.customerPassword = customerPassword;
 		this.customerEmail = customerEmail;
 		
 	}
 	
-	public Customer(String customerName, String customerUsername, String customerPassword,
+	public Customer(int customerId,String customerName, String customerUsername, String customerPassword,
 			String customerEmail) {
-		this(customerName, customerUsername, customerEmail);
-		this.customerEmail = customerEmail;
-		this.customerPassword = customerPassword;
+		this(customerName, customerUsername, customerPassword,customerEmail);
+		this.customerId = customerId;
 	}
 
 	public Customer() {

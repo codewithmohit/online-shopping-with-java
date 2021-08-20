@@ -6796,3 +6796,7 @@ Remain chance to try login again is 4
 [main] 2021-08-20 03:12:20 INFO  com.app.Main  - 3) Exit
 [main] 2021-08-20 03:12:20 INFO  com.app.Main  - Enter your choice between 1-3
 [main] 2021-08-20 03:12:22 INFO  com.app.Main  - Thanks for using our Shopping app. see you again!
+[main] 2021-08-20 11:47:48 INFO  com.app.Main  - 
+[main] 2021-08-20 11:47:48 WARN  com.app.Main  - Column 'cu_password' cannot be null
+[main] 2021-08-20 11:53:25 INFO  com.app.Main  - 20182021
+[main] 2021-08-20 11:53:49 INFO  com.app.Main  - 20182021
