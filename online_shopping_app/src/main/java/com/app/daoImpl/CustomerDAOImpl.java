@@ -17,7 +17,9 @@ import com.app.model.Customer;
 
 public class CustomerDAOImpl implements CustomerDAO {
 	Logger log = Logger.getLogger(Main.class);
-
+	
+	
+	//  *****************  Check Valid Credentials for Customers *************************
 	@Override
 	public Customer checkValidCredentials(String username, String password) throws BusinessException {
 		Customer customer = null;
@@ -45,11 +47,14 @@ public class CustomerDAOImpl implements CustomerDAO {
 		return customer;
 	}
 
+	
+	//   ****************** Create new account ****************************
 	@Override
 	public int createAccount(Customer customer) throws BusinessException {
 		int c = 0;
+		
 		try (Connection connection = MyDbConnection.getConnection()) {
-
+			
 			String sql = "insert into customer(cu_name,cu_username,cu_password,cu_email) values(?,?,?,?)";
 			
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -62,11 +67,14 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 		} catch (ClassNotFoundException | SQLException e) {
 			log.warn(e.getMessage());
+			//connection.rollback();
 			throw new BusinessException("Internal Problem Occured. Contact sysAdmin!");
 		}
 		return c;
 	}
-
+	
+	
+	// ********************* Get Customer details by using Customer ID ********************
 	@Override
 	public Customer getCustomerByCustomerId(int customerId) throws BusinessException {
 		Customer customer = null;
@@ -91,7 +99,9 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 		return customer;
 	}
-
+	
+	
+	// ********************* Get Customer details by using Customer Name ********************
 	@Override
 	public List<Customer> getCustomerByName(String customerName) throws BusinessException {
 		List<Customer> customerList = new ArrayList<>();
@@ -120,7 +130,10 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 		return customerList;
 	}
-
+	
+	
+	
+	// ********************* Get Customer details by using Customer Email ********************
 	@Override
 	public Customer getCustomerByEmail(String customerEmail) throws BusinessException {
 		Customer customer = null;
@@ -145,7 +158,10 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 		return customer;
 	}
-
+	
+	
+	
+	// ********************* Get Customer details by using Customer Order ID ********************
 	@Override
 	public Customer getCustomerByOrderId(int orderId) throws BusinessException {
 		Customer customer = null;

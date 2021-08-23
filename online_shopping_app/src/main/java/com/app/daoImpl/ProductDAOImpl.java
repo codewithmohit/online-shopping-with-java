@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +14,8 @@ import com.app.model.Product;
 
 public class ProductDAOImpl implements ProductDAO {
 	
+	
+	// ****************** Get All Products ***********************************
 	@Override
 	public List<Product> getAllProducts() throws BusinessException {
 		List<Product> productList = new ArrayList<>();
@@ -41,12 +42,14 @@ public class ProductDAOImpl implements ProductDAO {
 		return productList;
 	}
 	
+	
+	// ****************** Add Products By Employee***********************************
 	@Override
 	public int addProduct(Product product) throws BusinessException {
 		int c;
 		try (Connection connection = MyDbConnection.getConnection()) {
 			String sql = "insert into product(pro_name,pro_price,pro_rating,pro_cat_id) values(?,?,?,?)";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, product.getProductName());
 			preparedStatement.setDouble(2, product.getProductPrice());
 			preparedStatement.setDouble(3, product.getProductRating());
@@ -65,7 +68,9 @@ public class ProductDAOImpl implements ProductDAO {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
+	
+	
+	// ****************** Get Products By Product Name***********************************
 	@Override
 	public List<Product> getProductByName(String productName) throws BusinessException {
 		List<Product> productList = new ArrayList<>();
@@ -92,7 +97,8 @@ public class ProductDAOImpl implements ProductDAO {
 		}
 		return productList;
 	}
-
+	
+	// ****************** Get Products By Product Category***********************************
 	@Override
 	public List<Product> getProductByCategory(String productCategory) throws BusinessException {
 		List<Product> productList = new ArrayList<>();

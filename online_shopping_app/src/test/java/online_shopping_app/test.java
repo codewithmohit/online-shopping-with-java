@@ -66,11 +66,11 @@ class test {
 	}
 	
 	// Test Create Order
-	@Test
-	void testCreateOrder() throws BusinessException {
-		OrderDAO dao = new OrderDAOImpl();
-		assertEquals(1, dao.createOrder(26, 28, 42222),"Not Valid Product Details or Customer Id");
-	}
+//	@Test
+//	void testCreateOrder() throws BusinessException {
+//		OrderDAO dao = new OrderDAOImpl();
+//		assertEquals(1, dao.createOrder(26, 28, 42222),"Not Valid Product Details or Customer Id");
+//	}
 	
 
 }

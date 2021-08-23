@@ -9,7 +9,6 @@ import com.app.businessException.BusinessException;
 import com.app.model.Cart;
 import com.app.model.Customer;
 import com.app.model.Order;
-
 import com.app.service.CartService;
 import com.app.service.CustomerService;
 import com.app.service.EmployeeService;
@@ -100,6 +99,7 @@ public class Customers {
 								switch (choice) {
 								case 1:
 									ViewAllProduct.viewAllProduct();
+									addProductInCart();
 									break;
 								case 2:
 									SearchProduct.searchProductByFilter();
@@ -166,6 +166,41 @@ public class Customers {
 
 		}
 		
+		// ************************** Add Product In cart ************************
+		
+		public static void addProductInCart() {
+				int choice = 0;
+				do {
+					log.info("*******************************************");
+					log.info("1)Add any product to Cart");
+					log.info("2)Previous Menu");
+
+					try {
+						choice = Integer.parseInt(scanner.nextLine());
+						switch (choice) {
+						case 1:
+							log.info("Enter Product Id to add it to cart-->");
+							int productId = Integer.parseInt(scanner.nextLine());
+							int customerId = customer.getCustomerId();
+
+							if (cartService.addProductInCart(productId, customerId) == 1)
+								log.info("Product " + productId + " added successfully to cart!!!\n");
+							break;
+						case 2:
+							log.info("***Going to Previous Menu***");
+							break;
+						default:
+							log.warn("Please enter valid choice (1-2)\n");
+						}
+						log.info("\n");
+					} catch (NumberFormatException e) {
+						log.info("Entry is not appropriate. Please Enter Valid Choice\n");
+					} catch (BusinessException e) {
+						log.info(e.getMessage());
+					}
+				}while(choice!=2);
+		}
+			
 		
 		// ******************** View cart and Order ***************************
 
@@ -193,18 +228,11 @@ public class Customers {
 						chance = Integer.parseInt(scanner.nextLine());
 						switch (chance) {
 						case 1:
-							int customerId = customer.getCustomerId();
 							int result = 0;
-							for (Cart cart : cartList) {
-								int productId = cart.getProductId();
-								double productPrice = cart.getPrice();
-								result = orderService.createOrder(customerId, productId, productPrice);
-							}
-							if (result == 1) {
-								if (cartService.deleteProductInCart(customer.getCustomerId()) == 1) {
+							result = orderService.createOrder(cartList);
+							if (result >0) {
 									log.info("Ordered Placed successfully. You can view the status of order"
 											+ " in Main menu. Thanks for Shopping!!!!!");
-								}
 							}
 							break;
 						case 2:

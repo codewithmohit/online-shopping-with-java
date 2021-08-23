@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,14 +14,16 @@ import com.app.model.Cart;
 
 
 public class CartDAOImpl implements CartDAO{
-
+	
+	
+	// ********************  Add Product In Cart **********************************
 	@Override
 	public int addProductInCart(int productId,int customerId) throws BusinessException {
 		
 		int c;
 		try (Connection connection = MyDbConnection.getConnection()) {
 			String sql = "insert into cart(ca_cu_id,ca_pr_id) values (?,?)";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1,customerId);
 			preparedStatement.setInt(2,productId);
 			c = preparedStatement.executeUpdate();
@@ -31,7 +32,8 @@ public class CartDAOImpl implements CartDAO{
 		}
 		return c;
 	}
-
+	
+	// ********************  Get Product from Cart **********************************
 	@Override
 	public List<Cart> getProductFromCart(int customerId) throws BusinessException {
 		List<Cart> cartList = new ArrayList<>();
@@ -58,7 +60,8 @@ public class CartDAOImpl implements CartDAO{
 		}
 		return cartList;
 	}
-
+	
+	// ********************  Delete Product from Cart **********************************
 	@Override
 	public int deleteProductInCart(int customerId) throws BusinessException {
 		int c = 0;

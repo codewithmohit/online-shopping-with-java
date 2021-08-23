@@ -4,39 +4,57 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.app.businessException.BusinessException;
 import com.app.dao.OrderDAO;
 import com.app.dao.dbutils.MyDbConnection;
+import com.app.model.Cart;
 import com.app.model.Order;
 
 public class OrderDAOImpl implements OrderDAO {
-
+	
+	
+	// ********************* Create Order ********************
 	@Override
-	public int createOrder(int customerId, int productId, double price) throws BusinessException {
+	public int createOrder(List<Cart> cartList) throws BusinessException {
 
 		int c = 0;
 		try (Connection connection = MyDbConnection.getConnection()) {
-
-			String sql = "insert into orders(or_cu_id,or_pr_id,or_price,or_status) values(?,?,?,'Ordered')";
-			PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-
-			preparedStatement.setInt(1, customerId);
-			preparedStatement.setInt(2, productId);
-			preparedStatement.setDouble(3, price);
+			
+			//connection.setAutoCommit(false);
+			
+			PreparedStatement preparedStatement;
+			String insertSql = "insert into orders(or_cu_id,or_pr_id,or_price,or_status) values(?,?,?,'Ordered')";
+			preparedStatement = connection.prepareStatement(insertSql);
+			
+			for (Cart cart : cartList) {
+				preparedStatement.setInt(1, cart.getCustomerId());
+				preparedStatement.setInt(2, cart.getProductId());
+				preparedStatement.setDouble(3, cart.getPrice());
+//				c = preparedStatement.executeUpdate();
+				preparedStatement.addBatch();
+			}
+			
+//			c = preparedStatement.executeBatch().length;
+			preparedStatement.executeBatch();
+			
+			String deleteSql = "delete from cart where ca_cu_id=?";
+			preparedStatement = connection.prepareStatement(deleteSql);
+			preparedStatement.setInt(1,cartList.get(0).getCustomerId());
 			c = preparedStatement.executeUpdate();
-
+			
+			
 		} catch (ClassNotFoundException | SQLException e) {
-
+			//connection.rollback();
 			throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
 		}
 		return c;
 
 	}
-
+	
+	// ********************* Get Order List by using Customer ID ********************
 	@Override
 	public List<Order> getOrderList(int customerId) throws BusinessException {
 		List<Order> orderList = new ArrayList<>();
@@ -63,7 +81,9 @@ public class OrderDAOImpl implements OrderDAO {
 		}
 		return orderList;
 	}
-
+	
+	
+	// ********************* Get Order List ********************
 	@Override
 	public List<Order> getOrderList() throws BusinessException {
 		List<Order> orderList = new ArrayList<>();
@@ -90,7 +110,9 @@ public class OrderDAOImpl implements OrderDAO {
 		}
 		return orderList;
 	}
-
+	
+	
+	// ********************* Update Order Status ********************
 	@Override
 	public int updateOrderStatus(int orderId,String status) throws BusinessException {
 		int c = 0;
@@ -111,7 +133,8 @@ public class OrderDAOImpl implements OrderDAO {
 		return c;
 
 	}
-
+	
+	//  ******************* Get Shipped Order details **********************
 	@Override
 	public List<Order> markGetOrderList(int customerId) throws BusinessException {
 		List<Order> orderList = new ArrayList<>();

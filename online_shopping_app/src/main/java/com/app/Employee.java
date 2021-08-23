@@ -94,13 +94,6 @@ public class Employee {
 									addProduct();
 									break;
 								case 2:
-//									log.info("Products Details are Below----->");
-//									List<Product> productList = productService.getAllProducts();
-//
-//									for (Product product : productList) {
-//										log.info(product);
-//									}
-//									log.info("\n");
 									ViewAllProduct.viewAllProduct();
 									break;
 								case 3:

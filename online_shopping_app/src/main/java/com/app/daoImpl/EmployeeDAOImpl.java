@@ -14,7 +14,9 @@ import com.app.dao.dbutils.MyDbConnection;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
 	Logger log = Logger.getLogger(Main.class);
-
+	
+	
+	//  *****************  Check Valid Credentials for Employee *************************
 	@Override
 	public Boolean checkValidCredentials(String username, String password) throws BusinessException {
 		boolean login = false;

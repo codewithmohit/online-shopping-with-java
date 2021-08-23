@@ -6,6 +6,7 @@ import java.util.List;
 import com.app.businessException.BusinessException;
 import com.app.dao.OrderDAO;
 import com.app.daoImpl.OrderDAOImpl;
+import com.app.model.Cart;
 import com.app.model.Order;
 import com.app.service.OrderService;
 
@@ -14,8 +15,8 @@ public class OrderServiceImpl implements OrderService{
 	OrderDAO orderDAO = new OrderDAOImpl();
 	
 	@Override
-	public int createOrder(int customerId, int productId, double price) throws BusinessException {
-		int c = orderDAO.createOrder(customerId, productId, price);
+	public int createOrder(List<Cart> cartList) throws BusinessException {
+		int c = orderDAO.createOrder(cartList);
 		return c;
 	}
 
