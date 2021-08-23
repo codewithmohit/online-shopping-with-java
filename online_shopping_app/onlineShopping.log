@@ -7547,3 +7547,608 @@ Remain chance to try login again is 4
 [main] 2021-08-20 15:01:33 INFO  com.app.Main  - 3) Exit
 [main] 2021-08-20 15:01:33 INFO  com.app.Main  - Enter your choice between 1-3
 [main] 2021-08-20 15:01:36 INFO  com.app.Main  - Thanks for using our Shopping app. see you again!
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-22 12:00:07 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:00:14 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:00:14 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 12:00:14 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 12:00:14 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 12:00:17 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-22 12:00:17 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:00:17 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 12:00:17 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 12:00:17 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 12:00:20 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:00:24 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:00:30 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:00:34 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 
+
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:00:35 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:01:00 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-22 12:01:06 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-22 12:01:10 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-22 12:01:12 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-22 12:01:21 WARN  com.app.Main  - Cannot add or update a child row: a foreign key constraint fails (`online-shopping`.`product`, CONSTRAINT `fk_category` FOREIGN KEY (`pro_cat_id`) REFERENCES `productcategory` (`pro_cat_id`)) Internal Problem Occured. Contact sysAdmin!
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:01:21 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:02:40 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-22 12:02:48 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-22 12:02:52 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-22 12:02:53 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:02:58 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Product [productId=36, productName=redmi, productPrice=250000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 
+
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:03:01 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - The Order id 4 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - The Order id 5 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - The Order id 6 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - The Order id 7 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - ********************************
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-22 12:03:07 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:03:16 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 12:03:17 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-22 12:03:17 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:17 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 12:03:17 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 12:03:17 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 12:03:19 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-22 12:03:19 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-22 12:03:19 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-22 12:03:19 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-22 12:03:19 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - 1)Login
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-22 12:03:22 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:03:25 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-22 12:03:25 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:25 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:03:29 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 12:03:32 INFO  com.app.Main  - Credentials is not matched with our Database!
+[main] 2021-08-22 12:03:32 INFO  com.app.Main  - 
+Remain chance to try login again is 4
+
+[main] 2021-08-22 12:03:32 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-22 12:03:32 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:32 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:03:46 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 12:03:48 INFO  com.app.Main  - Credentials is not matched with our Database!
+[main] 2021-08-22 12:03:48 INFO  com.app.Main  - 
+Remain chance to try login again is 3
+
+[main] 2021-08-22 12:03:48 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-22 12:03:48 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:48 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - Please enter valid Username and Password!
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - 
+Remain chance to try login again is 2
+
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:52 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-22 12:03:59 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - 1)Login
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-22 12:04:01 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:04:03 INFO  com.app.Main  - 
+**** Welcome to Signup Portal****
+[main] 2021-08-22 12:04:03 INFO  com.app.Main  - Enter Name-->
+[main] 2021-08-22 12:04:07 INFO  com.app.Main  - Enter Username-->
+[main] 2021-08-22 12:04:10 INFO  com.app.Main  - Enter Password-->
+[main] 2021-08-22 12:04:12 INFO  com.app.Main  - Enter Email-Id-->
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - Account create Successfully!!!!!!!!!!
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - 1)Login
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-22 12:04:18 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 12:04:20 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-22 12:04:20 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:20 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 12:04:21 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - Welcome abc, What you wanna do today?
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:04:23 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - Product [productId=36, productName=redmi, productPrice=250000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - 
+
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - *******************************************
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-22 12:04:39 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-22 12:04:46 INFO  com.app.Main  - Enter Product Id to add it to cart-->
+[main] 2021-08-22 12:04:49 INFO  com.app.Main  - Product 30 added successfully to cart!!!
+
+[main] 2021-08-22 12:04:49 INFO  com.app.Main  - *******************************************
+[main] 2021-08-22 12:04:49 INFO  com.app.Main  - 1)Add any product to Cart
+[main] 2021-08-22 12:04:49 INFO  com.app.Main  - 2)Previous Menu
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:04:51 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - There are 1 product in Cart and details are below --> 
+
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - Cart [productName=AC, price=50000.5]
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - 
+Total Price is 50000.5
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - 1)Yes
+[main] 2021-08-22 12:04:54 INFO  com.app.Main  - 2)No
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - Ordered Placed successfully. You can view the status of order in Main menu. Thanks for Shopping!!!!!
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 1)View Products
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 2)Search Products
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 3)View Orders
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 4)View Cart
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 5)Mark Order as Received!
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 12:05:07 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-22 19:08:12 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 19:08:15 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:15 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 19:08:15 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 19:08:15 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 19:08:18 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-22 19:08:18 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:18 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 19:08:18 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 19:08:18 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 19:08:21 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-22 19:08:21 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:21 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 19:08:21 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 19:08:21 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 19:08:22 INFO  com.app.Main  - Enter your username
+[main] 2021-08-22 19:08:26 INFO  com.app.Main  - Enter your password
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 19:08:32 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Product [productId=36, productName=redmi, productPrice=250000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 
+
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 19:08:37 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-22 19:08:50 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-22 19:08:55 INFO  com.app.Main  - Enter Customer Name to find Customer-->
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - Customer [customerId=25, customerName=mohit, customerUsername=mohit2021, customerEmail=jindalmohit@gmail.com]
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-22 19:08:57 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - *********** Going to previous menu *******************
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 19:09:23 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - There are 5 Orders and details are below --> 
+
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - The Order id 4 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - The Order id 5 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - The Order id 6 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - The Order id 7 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - The Order id 8 is a AC of price 50000.5 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - ********************************
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-22 19:09:25 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-22 19:09:29 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - The Order id 5 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - The Order id 6 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - The Order id 7 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - The Order id 8 is a AC of price 50000.5 The Current Order Status is Ordered
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - ********************************
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-22 19:09:31 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-22 19:09:41 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-22 19:09:47 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-22 19:09:47 INFO  com.app.Main  - **********************************
+[main] 2021-08-22 19:09:47 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-22 19:09:47 INFO  com.app.Main  - 1) login
+[main] 2021-08-22 19:09:47 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-22 19:09:49 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-22 19:09:49 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-22 19:09:49 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-22 19:09:49 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-22 19:09:49 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-22 19:09:52 INFO  com.app.Main  - Thanks for using our Shopping app. see you again!
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - Welcome To Online Shopping App!
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-23 09:38:40 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-23 09:38:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:38:44 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-23 09:38:44 INFO  com.app.Main  - 1) login
+[main] 2021-08-23 09:38:44 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-23 09:38:45 INFO  com.app.Main  - Entry is not appropriate. Please Enter Valid Choice
+
+[main] 2021-08-23 09:38:45 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:38:45 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-23 09:38:45 INFO  com.app.Main  - 1) login
+[main] 2021-08-23 09:38:45 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-23 09:38:47 INFO  com.app.Main  - Enter your username
+[main] 2021-08-23 09:38:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - Login Successfully!!!!!!!
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - Welcome jindalmohit2018,What you wanna do today?
+
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:38:56 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:39:00 INFO  com.app.Main  - Enter Product Name ::
+[main] 2021-08-23 09:39:05 INFO  com.app.Main  - Enter Product Price ::
+[main] 2021-08-23 09:39:10 INFO  com.app.Main  - Enter Product rating ::
+[main] 2021-08-23 09:39:21 INFO  com.app.Main  - Enter Product Category Id ::
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - Product add Successfully!!!!!!!!!!
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:39:24 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:39:25 INFO  com.app.Main  - Products Details are Below----->
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=37, productName=Fan, productPrice=5236.02, productRating=2.9, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Product [productId=36, productName=redmi, productPrice=250000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 
+
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:39:26 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - Welcome to Product Search(You can search a product from various criteria from below menu--->)
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-23 09:39:39 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:39:42 INFO  com.app.Main  - Enter Product Name to find your Product-->
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - Product [productId=37, productName=Fan, productPrice=5236.02, productRating=2.9, productCategoryId=1]
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - Welcome to Product Search(You can search a product from various criteria from below menu--->)
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-23 09:39:44 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:39:48 INFO  com.app.Main  - Enter Product Category to find your Product-->
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=28, productName=Laptop, productPrice=42000.0, productRating=4.3, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=29, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=30, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=31, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=32, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=33, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=34, productName=AC, productPrice=50000.5, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=36, productName=redmi, productPrice=250000.0, productRating=4.2, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Product [productId=37, productName=Fan, productPrice=5236.02, productRating=2.9, productCategoryId=1]
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Welcome to Product Search(You can search a product from various criteria from below menu--->)
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-23 09:39:58 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:07 INFO  com.app.Main  - Enter Product Category to find your Product-->
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - Sorry Product is not available now!!
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - Welcome to Product Search(You can search a product from various criteria from below menu--->)
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - 1)By Name
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - 3)Previous Menu
+[main] 2021-08-23 09:40:11 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - ***Going to Previous Menu***
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:40:19 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-23 09:40:39 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:40 INFO  com.app.Main  - Enter Customer Id to find Customer-->
+[main] 2021-08-23 09:40:41 WARN  com.app.Main  - Customer Id is not matched in our Database!
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-23 09:40:41 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:43 INFO  com.app.Main  - Enter Customer Id to find Customer-->
+[main] 2021-08-23 09:40:46 WARN  com.app.Main  - Customer Id is not matched in our Database!
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-23 09:40:46 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:49 INFO  com.app.Main  - Enter Customer Name to find Customer-->
+[main] 2021-08-23 09:40:53 WARN  com.app.Main  - Customer Name is not matched in our Database!
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-23 09:40:53 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:40:56 INFO  com.app.Main  - Enter Customer Name to find Customer-->
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - Customer [customerId=25, customerName=mohit, customerUsername=mohit2021, customerEmail=jindalmohit@gmail.com]
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 
+Welcome to Search Customer(You can search Customer from various criteria from below menu--->)
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 1)By Customer Id
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 2)By Name
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 3)By Email Id
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 4)By Order Id
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - 5)Previous Menu
+[main] 2021-08-23 09:40:57 INFO  com.app.Main  - Enter your choice-->
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - *********** Going to previous menu *******************
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:41:02 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - There are 4 Orders and details are below --> 
+
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - The Order id 5 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - The Order id 6 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - The Order id 7 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - The Order id 8 is a AC of price 50000.5 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - ********************************
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-23 09:41:05 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-23 09:41:09 INFO  com.app.Main  - Enter Order id to mark status
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - Mark Status is Successfully Done!!
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - There are 3 Orders and details are below --> 
+
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - The Order id 5 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - The Order id 6 is a Laptop of price 42000.0 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - The Order id 8 is a AC of price 50000.5 The Current Order Status is Ordered
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - ********************************
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - 1)Mark Status
+[main] 2021-08-23 09:41:12 INFO  com.app.Main  - 2)Go to previous menu
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  -  ****** going to previous menu *****
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 1)add Product
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 2)View Products
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 3)Search Products By filter
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 4)Search Customer By filter
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 5)Mark Order as Shipped!
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - 6)LogOut
+[main] 2021-08-23 09:41:16 INFO  com.app.Main  - Enter your choice between 1-6
+[main] 2021-08-23 09:41:18 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-23 09:41:18 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:41:18 INFO  com.app.Main  - 
+**** Welcome to Employee Login Portal****
+[main] 2021-08-23 09:41:18 INFO  com.app.Main  - 1) login
+[main] 2021-08-23 09:41:18 INFO  com.app.Main  - 2) Go to main menu
+[main] 2021-08-23 09:41:21 INFO  com.app.Main  - *****Going to main menu******
+[main] 2021-08-23 09:41:21 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-23 09:41:21 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-23 09:41:21 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-23 09:41:21 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-23 09:41:24 WARN  com.app.Main  - Please enter valid choice (1-3)
+
+[main] 2021-08-23 09:41:24 INFO  com.app.Main  - 1) Employee
+[main] 2021-08-23 09:41:24 INFO  com.app.Main  - 2) Customer
+[main] 2021-08-23 09:41:24 INFO  com.app.Main  - 3) Exit
+[main] 2021-08-23 09:41:24 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - 
+**** Welcome to Customer Portal****
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - 1)Login
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - 2)Create Accoount
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - 3)Back to Main Menu
+[main] 2021-08-23 09:41:26 INFO  com.app.Main  - Enter your choice between 1-3
+[main] 2021-08-23 09:41:27 INFO  com.app.Main  - 
+**** Welcome to Login Portal****
+[main] 2021-08-23 09:41:27 INFO  com.app.Main  - **********************************
+[main] 2021-08-23 09:41:27 INFO  com.app.Main  - Enter your username

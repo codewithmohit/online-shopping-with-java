@@ -57,7 +57,7 @@ public class Customer {
 
 	
 	public Customer(String customerName, String customerUsername,String customerPassword, String customerEmail) {
-		super();
+	
 		this.customerName = customerName;
 		this.customerUsername = customerUsername;
 		this.customerPassword = customerPassword;

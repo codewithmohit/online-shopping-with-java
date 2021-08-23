@@ -21,12 +21,6 @@ import com.app.model.Product;
 
 class test {
 
-	// Test choice is in range
-	@Test
-	void checkChoice() {
-		assertEquals(true, Main.checkChoice(2) ,"Not Valid Choice");
-		assertEquals(false, Main.checkChoice(7) ,"Not Valid Choice");
-	}
 	
 	// Test add product
 	@Test
