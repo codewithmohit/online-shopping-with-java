@@ -1,6 +1,7 @@
 package com.app.daoImpl;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,21 +15,27 @@ import com.app.model.Cart;
 import com.app.model.Order;
 
 public class OrderDAOImpl implements OrderDAO {
-	
-	
+
 	// ********************* Create Order ********************
 	@Override
 	public int createOrder(List<Cart> cartList) throws BusinessException {
 
 		int c = 0;
-		try (Connection connection = MyDbConnection.getConnection()) {
+		Connection connection = null;
+		try {
+
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			String url = "jdbc:mysql://localhost:3306/online-shopping";
+			String username = "root";
+			String password = "root";
+			connection = DriverManager.getConnection(url, username, password);
 			
-			//connection.setAutoCommit(false);
+			connection.setAutoCommit(false);
 			
 			PreparedStatement preparedStatement;
 			String insertSql = "insert into orders(or_cu_id,or_pr_id,or_price,or_status) values(?,?,?,'Ordered')";
 			preparedStatement = connection.prepareStatement(insertSql);
-			
+
 			for (Cart cart : cartList) {
 				preparedStatement.setInt(1, cart.getCustomerId());
 				preparedStatement.setInt(2, cart.getProductId());
@@ -36,25 +43,37 @@ public class OrderDAOImpl implements OrderDAO {
 //				c = preparedStatement.executeUpdate();
 				preparedStatement.addBatch();
 			}
-			
 //			c = preparedStatement.executeBatch().length;
 			preparedStatement.executeBatch();
-			
+
 			String deleteSql = "delete from cart where ca_cu_id=?";
 			preparedStatement = connection.prepareStatement(deleteSql);
-			preparedStatement.setInt(1,cartList.get(0).getCustomerId());
+			preparedStatement.setInt(1, cartList.get(0).getCustomerId());
 			c = preparedStatement.executeUpdate();
 			
-			
+			connection.commit();
+
 		} catch (ClassNotFoundException | SQLException e) {
-			//connection.rollback();
-			throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
+			try {
+				connection.rollback();
+				throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
+			} catch (SQLException e1) {
+				throw new BusinessException(e1.getMessage() + " Transaction failed!!!!");
+			}
+			
+		} finally {
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");
+			}
 		}
 		return c;
 
 	}
-	
-	// ********************* Get Order List by using Customer ID ********************
+
+	// ********************* Get Order List by using Customer ID
+	// ********************
 	@Override
 	public List<Order> getOrderList(int customerId) throws BusinessException {
 		List<Order> orderList = new ArrayList<>();
@@ -81,8 +100,7 @@ public class OrderDAOImpl implements OrderDAO {
 		}
 		return orderList;
 	}
-	
-	
+
 	// ********************* Get Order List ********************
 	@Override
 	public List<Order> getOrderList() throws BusinessException {
@@ -110,20 +128,19 @@ public class OrderDAOImpl implements OrderDAO {
 		}
 		return orderList;
 	}
-	
-	
+
 	// ********************* Update Order Status ********************
 	@Override
-	public int updateOrderStatus(int orderId,String status) throws BusinessException {
+	public int updateOrderStatus(int orderId, String status) throws BusinessException {
 		int c = 0;
 		try (Connection connection = MyDbConnection.getConnection()) {
 
 			String sql = "update orders set or_status = ? where or_id =?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			
+
 			preparedStatement.setString(1, status);
 			preparedStatement.setInt(2, orderId);
-			
+
 			c = preparedStatement.executeUpdate();
 
 		} catch (ClassNotFoundException | SQLException e) {
@@ -133,8 +150,8 @@ public class OrderDAOImpl implements OrderDAO {
 		return c;
 
 	}
-	
-	//  ******************* Get Shipped Order details **********************
+
+	// ******************* Get Shipped Order details **********************
 	@Override
 	public List<Order> markGetOrderList(int customerId) throws BusinessException {
 		List<Order> orderList = new ArrayList<>();
@@ -155,7 +172,7 @@ public class OrderDAOImpl implements OrderDAO {
 				orderList.add(order);
 			}
 			if (orderList.size() < 1) {
-				throw new BusinessException("Customers have no orders Yet!!");
+				throw new BusinessException("No updates for orders Yet!!");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException(e.getMessage() + " Internal Problem Occured. Contact sysAdmin!");

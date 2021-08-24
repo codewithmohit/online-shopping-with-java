@@ -129,7 +129,7 @@ public class Employee {
 		}
 		
 		// ********************* View Order for Employees*********************
-		public static void markViewOrderForEmployees() {
+		public static int markViewOrderForEmployees() {
 
 			List<Order> orderList;
 			try {
@@ -139,7 +139,9 @@ public class Employee {
 					log.info(order);
 			} catch (BusinessException e) {
 				log.info(e.getMessage());
+				return 0;
 			}
+			return 1;
 
 		}
 		

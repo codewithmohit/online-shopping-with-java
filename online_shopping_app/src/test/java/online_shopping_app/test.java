@@ -2,9 +2,11 @@ package online_shopping_app;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.jupiter.api.Test;
 
-import com.app.Main;
 import com.app.businessException.BusinessException;
 import com.app.dao.CartDAO;
 import com.app.dao.CustomerDAO;
@@ -16,6 +18,7 @@ import com.app.daoImpl.CustomerDAOImpl;
 import com.app.daoImpl.EmployeeDAOImpl;
 import com.app.daoImpl.OrderDAOImpl;
 import com.app.daoImpl.ProductDAOImpl;
+import com.app.model.Cart;
 import com.app.model.Customer;
 import com.app.model.Product;
 
@@ -66,11 +69,13 @@ class test {
 	}
 	
 	// Test Create Order
-//	@Test
-//	void testCreateOrder() throws BusinessException {
-//		OrderDAO dao = new OrderDAOImpl();
-//		assertEquals(1, dao.createOrder(26, 28, 42222),"Not Valid Product Details or Customer Id");
-//	}
+	@Test
+	void testCreateOrder() throws BusinessException {
+		OrderDAO dao = new OrderDAOImpl();
+		List<Cart> cartList = new ArrayList<>();
+		cartList.add(new Cart(25,34,"AC",50000.50));
+		assertEquals(0, dao.createOrder(cartList),"Not Valid Product Details or Customer Id");
+	}
 	
 
 }

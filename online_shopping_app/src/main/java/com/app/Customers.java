@@ -152,7 +152,7 @@ public class Customers {
 		}
 		
 		// ********************* Mark View Order for Customer*************************
-		public static void markViewOrderForCustomer() {
+		public static int markViewOrderForCustomer() {
 
 			List<Order> orderList;
 			try {
@@ -162,7 +162,10 @@ public class Customers {
 					log.info(order);
 			} catch (BusinessException e) {
 				log.info(e.getMessage());
+				return 0;
+				
 			}
+			return 1;
 
 		}
 		

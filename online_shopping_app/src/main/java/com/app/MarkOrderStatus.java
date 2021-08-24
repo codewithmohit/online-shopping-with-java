@@ -32,12 +32,17 @@ public class MarkOrderStatus {
 
 		public static void markOrderStatus(int id, String status) {
 			int choice = 0;
+			
 			do {
 				if (id == 1) {
-					Employee.markViewOrderForEmployees();
+					int result =Employee.markViewOrderForEmployees();
+					if(result == 0)
+						return;
 				}
 				if (id == 2) {
-					Customers.markViewOrderForCustomer();
+					int result =Customers.markViewOrderForCustomer();
+					if(result == 0)
+						return;
 				}
 				log.info("********************************");
 				log.info("1)Mark Status");
